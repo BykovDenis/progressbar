@@ -1,0 +1,50 @@
+{
+  "name": "@bykovdenis/progressbar",
+  "version": "1.0.0",
+  "description": "The progressbar of React component",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "rollup -c rollup.config.prod.js",
+    "build-dev": "rollup -w -c rollup.config.dev.js",
+    "clean-node-modules": "rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BykovDenis/progressbar.git"
+  },
+  "keywords": [
+    "Progressbar",
+    "React",
+    "Rollup"
+  ],
+  "author": "Denis Bykov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BykovDenis/progressbar/issues"
+  },
+  "homepage": "https://github.com/BykovDenis/progressbar#readme",
+  "devDependencies": {
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.40.1",
+    "@typescript-eslint/parser": "5.40.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "8.0.0",
+    "eslint-plugin-typescript-enum": "2.1.0",
+    "eslint-plugin-typescript-sort-keys": "2.1.0",
+    "postcss": "8.4.18",
+    "prettier": "2.7.1",
+    "rollup-plugin-cleaner": "1.0.0",
+    "rollup-plugin-dts": "5.0.0",
+    "rollup-plugin-postcss": "4.0.2",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.34.1",
+    "ts-loader": "9.4.1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rollup": "2.61.1",
+    "typescript": "4.8.4"
+  }
+}
